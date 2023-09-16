@@ -1,11 +1,6 @@
 name: "bsides"
 on: push
 jobs:
-  hello-world:
-    runs-on: ubuntu-latest
-    run: echo "hello world"
-  
-  
   snyk:
     runs-on: ubuntu-latest
     steps:
